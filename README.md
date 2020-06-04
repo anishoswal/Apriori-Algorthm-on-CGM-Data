@@ -14,7 +14,6 @@
 - Found the most frequent sets, largest confidence rules and anomalous rules with the least confidence.
 - Exported the different rules and sets to different csv files.
 
-
 ## Input:
 - **[CGM Data](DataCGM)**.
 - **[Insulin Bolus Data](DataBOLUS)**.

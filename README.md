@@ -24,9 +24,9 @@ C. 3AnamalousRules
 - Combined Insulin Bolus and CGM Data into one .csv file. [BOLUSAll](BOLUSAll.csv) and [CGMAll](CGMAll.csv).
 
 ## Output
-1.	CSV File with the **Most Frequent Sets**.
-2.	CSV file with **Largest Confidence Rules**. 
-3.	CSV file with **Anomalous Rules**. i.e. Rules with the Least Confidence.
+1.	CSV File with the [**Most Frequent Sets**](OutputAll/1MostFrequent.csv).
+2.	CSV file with [**Largest Confidence Rules**](OutputAll/2HighConfidence.csv). 
+3.	CSV file with [**Anomalous Rules**](OutputAll/3AnamalousRules.csv). i.e. Rules with the Least Confidence.
 
 ## How to Run
 ```

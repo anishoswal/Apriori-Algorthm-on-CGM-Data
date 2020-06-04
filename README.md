@@ -1,8 +1,3 @@
-THE FINAL OUTPUT FOLDER CONTAINS:
-A. 1MostFrequent
-B. 2HighConfidence
-C. 3AnamalousRules
-
 # Apriori Algorithm on CGM Insulin Bolus Data
 ## Description
 - The project encorporates finding the frequent itemsets in bins for which we use the InsulinBolus dataset and the CGMSeries dataset.
@@ -33,6 +28,6 @@ C. 3AnamalousRules
 python main.py
 ```
 
-## Tested Environment
+## Tested Running Environment
 - **OS:** Windows 10
 - **Python:** 3.7

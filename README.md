@@ -1,9 +1,12 @@
 # Apriori Algorithm on CGM Insulin Bolus Data
+
+
 ## Description
 - The project encorporates finding the frequent itemsets in bins for which we use the InsulinBolus dataset and the CGMSeries dataset.
 - I have combined both the datsets and all their parts for different patients into one ensembled datset. i.e. [BOLUSAll](BOLUSAll.csv) and [CGMAll](CGMAll.csv)
 - Then I find the frequent itemsets in the form **{Bin for CGM<sub>Max</sub>, Bin for CGM<sub>0</sub>} -> {InsulinBolus<sub>Max</sub>}**.
 - Here CGM<sub>0</sub> stands for the time when the patient has a meal which is condsidered to to be the 6th Sample in the CGM data.
+
 
 ## Plan
 - Extracted the maxiumm Insulin Bolus Value from **[BOLUSAll.csv](BOLUSAll.csv)**.
@@ -14,20 +17,24 @@
 - Found the most frequent sets, largest confidence rules and anomalous rules with the least confidence.
 - Exported the different rules and sets to different csv files.
 
+
 ## Input:
 - **[CGM Data](DataCGM)**.
 - **[Insulin Bolus Data](DataBOLUS)**.
 - Combined Insulin Bolus and CGM Data into one .csv file. **[BOLUSAll](BOLUSAll.csv) and [CGMAll](CGMAll.csv)**.
+
 
 ## Output
 1.	CSV File with the [**Most Frequent Sets**](OutputAll/1MostFrequent.csv).
 2.	CSV file with [**Largest Confidence Rules**](OutputAll/2HighConfidence.csv). 
 3.	CSV file with [**Anomalous Rules**](OutputAll/3AnamalousRules.csv). i.e. Rules with the Least Confidence.
 
+
 ## How to Run
 ```
 python main.py
 ```
+
 
 ## Tested Running Environment
 - **OS:** Windows 10
